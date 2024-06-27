@@ -126,7 +126,16 @@ if numero > 0:
 
 for i in (1,5):
     print (i)
-    
+
+# Solución
+def primer_elemento(lista):
+    return lista[0]
+
+# Llamar a la función
+mi_lista = [10, 20, 30]
+print("El primer elemento de la lista es:", primer_elemento(mi_lista))
+
+
 
 
 
