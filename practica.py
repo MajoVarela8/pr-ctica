@@ -135,6 +135,28 @@ def primer_elemento(lista):
 mi_lista = [10, 20, 30]
 print("El primer elemento de la lista es:", primer_elemento(mi_lista))
 
+#Define una función llamada sumar que acepte dos parámetros y devuelva su suma.
+#Llama a la función con los números 5 y 7, y almacena el resultado en una variable.
+#Imprime el resultado.
+
+def sumar (a,b):
+    return a + b
+
+resultado = sumar (5,7)
+print (resultado)
+
+#Define una función llamada calcular_promedio que acepte una lista de números y devuelva su promedio.
+#Llama a la función con la lista [10, 20, 30, 40, 50] y almacena el resultado en una variable.
+#Imprime el resultado
+
+def calcular_promedio(numeros):
+    return sum(numeros) / len(numeros)
+print(calcular_promedio([10,20,30,40,50]))
+    
+
+
+
+
 
 
 
